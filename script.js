@@ -64,6 +64,7 @@ const handleOnGenderSelect = (e) => {
   const g = e.value;
   const urlg = api + "&gender=" + g;
   fetchUsers(urlg);
+  console.log(e);
 };
 
 document.getElementById("search").addEventListener("keyup",(e)=>{
